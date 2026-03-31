@@ -1,0 +1,63 @@
+#portfolio {  
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 40px;
+    margin: 0;
+
+}
+#education{  
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 40px;
+    margin: 0;
+
+}
+  .indexcontainer {
+        background-color: black; 
+        /* stacking inside the container */
+        display: flex;  
+        /* stacks vertically */
+        flex-direction:row;  
+        justify-content: space-between;
+        align-items: flex-start;
+        color: white;
+        padding: 0px;
+
+    }
+/* applying if width is less than 768px */
+@media screen and (max-width: 768px) {
+
+    /* callimg indexconainer */
+    .indexcontainer {
+        background-color: black; 
+        /* stacking inside the container */
+        display: flex;  
+        /* stacks vertically */
+        flex-direction: column;  
+        justify-content: space-between;
+        align-items: flex-start;
+        color: white;
+        padding: 0px;
+
+    }
+}
+/* making sure left size texts 50% */
+#leftsideindex {
+    width: 50%;
+    padding-right: 10px;
+
+
+}
+/* making sure right side takes 50% */
+#rightsideindex {
+    width: 50%;
+    padding-right: 0;
+
+
+}
