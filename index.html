@@ -5,30 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">  /*calls style.css */
 
 </head>
 
 <body>
     <!-- this is ow we use comment-->
-    <h1>welcome to the my portfolio;</h1>
-    <div>
-        <p>My name is <strong>Amitaya lama</strong>. I'm from nepal and I'm currenlyt living in NYC</p>
-    </div>
-    <b></b>
-    <button>Click Me</button>
-    <b></b>
-     
-     <h4> my hobbies</h4>
-   <ul type="square">
-    <li>reading</li>
-    <li>sleeping</li>
-    <li>eating</li>
-    <li>listening</li>
+    <h1 id="portfolio">welcome to the my portfolio;</h1>
+    <!-- creating big container to hold the contents -->
+    <div class="indexcontainer"> 
+        <!-- creating left side coninter to hold texts -->
+        <div id="leftsideindex">   
+            <p>My name is <strong>Amitaya lama</strong>. I'm from nepal and I'm currenlyt living in NYC</p>
+
+            <div>
+                <nav>
+
+                    <div>
+
+                        <a href="" class="nav-logo">MyPortfolio</a>
+
+                        <ul class="nav-links">
+
+                            <li><a href="contacts.html">About</a></li>
+
+                            <li><a href="education.html">Education</a></li>
+
+                            <li><a href="experince.html">Experience</a></li>
+
+                            <li><a href="projects.html">projects</a></li>
+
+                            <li><a href="index.html">index </a></li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
 
 
-   </ul>
-    <p>this is my profile pic</p>
-    <img src="FullSizeRender(1).jpg" width="200" height="100" title ="this is my profie picture">
+        </div>
+        <!-- creating right side container to hold photo -->
+        <div id="rightsideindex">
+            <img src="FullSizeRender(1).png" width="300" height="200" title="this is my profie picture">
+
+        </div>
 </body>
 
 </html>
